@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2025-12-28T20:06:06Z",
-  "sha256": "7e6e803250972ad42095a465f526aa0a439e4d3b612d1dbfef9b38312bfcb2d6",
-  "file": "heartbeats_20251228_200606.json",
-  "bundle_url": "https://uptimeproof.io/proof/bundle?file=heartbeats_20251228_200606.json",
-  "download_url": "https://uptimeproof.io/proof/download?file=heartbeats_20251228_200606.json"
+  "timestamp_utc": "2025-12-28T20:16:08Z",
+  "sha256": "c5df66d0cd46f559d1bbf3c3eeb2f5185518d2030865e7ae05cd1c50f9cc2e19",
+  "file": "heartbeats_20251228_201608.json",
+  "bundle_url": "https://uptimeproof.io/proof/bundle?file=heartbeats_20251228_201608.json",
+  "download_url": "https://uptimeproof.io/proof/download?file=heartbeats_20251228_201608.json"
 }
