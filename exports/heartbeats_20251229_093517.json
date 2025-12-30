@@ -1,0 +1,68 @@
+{
+  "generated_at_utc": "2025-12-29T09:35:17.511723+00:00",
+  "kuma_url": "http://uptime-kuma:3001",
+  "monitors_count": 3,
+  "heartbeats_total": 3,
+  "data": {
+    "2": {
+      "monitor": {
+        "id": 2,
+        "name": "PoA Latest",
+        "type": "MonitorType.HTTP",
+        "active": true
+      },
+      "count": 1,
+      "beats": [
+        {
+          "monitorID": 2,
+          "status": 1,
+          "time": "2025-12-29 09:35:17.271",
+          "msg": "200 - OK",
+          "ping": 25,
+          "important": false,
+          "duration": 60
+        }
+      ]
+    },
+    "1": {
+      "monitor": {
+        "id": 1,
+        "name": "PoA API Health",
+        "type": "MonitorType.HTTP",
+        "active": true
+      },
+      "count": 1,
+      "beats": [
+        {
+          "monitorID": 1,
+          "status": 1,
+          "time": "2025-12-29 09:35:17.271",
+          "msg": "200 - OK",
+          "ping": 31,
+          "important": false,
+          "duration": 60
+        }
+      ]
+    },
+    "3": {
+      "monitor": {
+        "id": 3,
+        "name": "PoA Bundle Latest",
+        "type": "MonitorType.HTTP",
+        "active": true
+      },
+      "count": 1,
+      "beats": [
+        {
+          "monitorID": 3,
+          "status": 1,
+          "time": "2025-12-29 09:35:17.271",
+          "msg": "200 - OK",
+          "ping": 29,
+          "important": false,
+          "duration": 60
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "generated_at_utc": "2025-12-28T19:25:57.732949+00:00",
+  "kuma_url": "http://uptime-kuma:3001",
+  "monitors_count": 3,
+  "heartbeats_total": 1,
+  "data": {
+    "3": {
+      "monitor": {
+        "id": 3,
+        "name": "PoA Bundle Latest",
+        "type": "MonitorType.HTTP",
+        "active": true
+      },
+      "count": 1,
+      "beats": [
+        {
+          "monitorID": 3,
+          "status": 1,
+          "time": "2025-12-28 19:25:57.362",
+          "msg": "200 - OK",
+          "ping": 11,
+          "important": false,
+          "duration": 60
+        }
+      ]
+    }
+  }
+}
