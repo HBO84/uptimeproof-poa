@@ -1,9 +1,9 @@
 {
-  "file": "heartbeats_20251230_204435.json",
-  "prev_file": "heartbeats_20251230_203433.json",
-  "prev_sha256": "17c74b75b869fc0671b26224ed47230b7e54e2dc86831e00f2c617778e197816",
+  "file": "heartbeats_20251230_205437.json",
+  "prev_file": "heartbeats_20251230_204435.json",
+  "prev_sha256": "9589d87d01dbf800dbd3ed20983daffc3882fa7ed5a89b1498e7fa3f196b69ee",
   "proof_version": "poa-exports-v1",
-  "sequence": 65,
-  "sha256": "9589d87d01dbf800dbd3ed20983daffc3882fa7ed5a89b1498e7fa3f196b69ee",
-  "ts": "2025-12-30T20:50:02Z"
+  "sequence": 66,
+  "sha256": "f7c8f4def8ecf2cd63f00e9400b46b59f6c84925ab742f448bbb156564f5c399",
+  "ts": "2025-12-30T21:00:02Z"
 }
