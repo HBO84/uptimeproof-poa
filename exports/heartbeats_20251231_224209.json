@@ -1,0 +1,34 @@
+{
+  "_poa": {
+    "prev_file": "heartbeats_20251231_223708.json",
+    "prev_sha256": "e6a18adaec06a851b3acb25544274a450bf34288011a10cfbb2467eec97c240c",
+    "proof_version": "poa-exports-v1",
+    "sequence": 325,
+    "ts": "2025-12-31T22:45:01Z"
+  },
+  "data": {
+    "7": {
+      "beats": [
+        {
+          "duration": 60,
+          "important": false,
+          "monitorID": 7,
+          "msg": "Request failed with status code 410",
+          "status": 0,
+          "time": "2025-12-31 22:42:09.311"
+        }
+      ],
+      "count": 1,
+      "monitor": {
+        "active": true,
+        "id": 7,
+        "name": "Verify/ Min",
+        "type": "MonitorType.HTTP"
+      }
+    }
+  },
+  "generated_at_utc": "2025-12-31T22:42:09.537084+00:00",
+  "heartbeats_total": 1,
+  "kuma_url": "http://uptime-kuma:3001",
+  "monitors_count": 3
+}
