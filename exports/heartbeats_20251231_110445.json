@@ -1,0 +1,28 @@
+{
+  "generated_at_utc": "2025-12-31T11:04:45.709072+00:00",
+  "kuma_url": "http://uptime-kuma:3001",
+  "monitors_count": 3,
+  "heartbeats_total": 1,
+  "data": {
+    "6": {
+      "monitor": {
+        "id": 6,
+        "name": "Verify Truth",
+        "type": "MonitorType.HTTP",
+        "active": true
+      },
+      "count": 1,
+      "beats": [
+        {
+          "monitorID": 6,
+          "status": 1,
+          "time": "2025-12-31 11:04:45.153",
+          "msg": "200 - OK",
+          "ping": 123,
+          "important": false,
+          "duration": 60
+        }
+      ]
+    }
+  }
+}
