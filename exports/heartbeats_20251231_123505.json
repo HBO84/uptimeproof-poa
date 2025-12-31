@@ -1,69 +1,14 @@
 {
   "_poa": {
-    "prev_file": "heartbeats_20251231_122501.json",
-    "prev_sha256": "88c02d68c7102ba5ecf1875b3c0fe86f64276254c950853e78ef9681accbe7d1",
+    "prev_file": "heartbeats_20251231_123003.json",
+    "prev_sha256": "9d242bede5956092b9e0f04d33ac9bc9c397234e6323d8e168d27098560e2065",
     "proof_version": "poa-exports-v1",
-    "sequence": 203,
-    "ts": "2025-12-31T12:35:01Z"
+    "sequence": 204,
+    "ts": "2025-12-31T12:40:01Z"
   },
   "data": {
     "5": {
       "beats": [
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 12083,
-          "important": false,
-          "monitor_id": 5,
-          "msg": "200 - OK",
-          "ping": 10,
-          "status": 1,
-          "time": "2025-12-31 10:50:55.101"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 12086,
-          "important": false,
-          "monitor_id": 5,
-          "msg": "200 - OK",
-          "ping": 14,
-          "status": 1,
-          "time": "2025-12-31 10:51:55.115"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 12089,
-          "important": false,
-          "monitor_id": 5,
-          "msg": "200 - OK",
-          "ping": 13,
-          "status": 1,
-          "time": "2025-12-31 10:52:55.132"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 12092,
-          "important": false,
-          "monitor_id": 5,
-          "msg": "200 - OK",
-          "ping": 11,
-          "status": 1,
-          "time": "2025-12-31 10:53:55.150"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 12095,
-          "important": false,
-          "monitor_id": 5,
-          "msg": "200 - OK",
-          "ping": 12,
-          "status": 1,
-          "time": "2025-12-31 10:54:55.165"
-        },
         {
           "down_count": 0,
           "duration": 60,
@@ -1108,6 +1053,61 @@
           "ping": 12,
           "status": 1,
           "time": "2025-12-31 12:29:56.718"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 12382,
+          "important": false,
+          "monitor_id": 5,
+          "msg": "200 - OK",
+          "ping": 16,
+          "status": 1,
+          "time": "2025-12-31 12:30:56.733"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 12385,
+          "important": false,
+          "monitor_id": 5,
+          "msg": "200 - OK",
+          "ping": 13,
+          "status": 1,
+          "time": "2025-12-31 12:31:56.754"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 12388,
+          "important": false,
+          "monitor_id": 5,
+          "msg": "200 - OK",
+          "ping": 13,
+          "status": 1,
+          "time": "2025-12-31 12:32:56.771"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 12391,
+          "important": false,
+          "monitor_id": 5,
+          "msg": "200 - OK",
+          "ping": 15,
+          "status": 1,
+          "time": "2025-12-31 12:33:56.788"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 12394,
+          "important": false,
+          "monitor_id": 5,
+          "msg": "200 - OK",
+          "ping": 12,
+          "status": 1,
+          "time": "2025-12-31 12:34:56.807"
         }
       ],
       "count": 100,
@@ -1120,61 +1120,6 @@
     },
     "6": {
       "beats": [
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 12081,
-          "important": false,
-          "monitor_id": 6,
-          "msg": "200 - OK",
-          "ping": 110,
-          "status": 1,
-          "time": "2025-12-31 10:50:43.325"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 12084,
-          "important": false,
-          "monitor_id": 6,
-          "msg": "200 - OK",
-          "ping": 115,
-          "status": 1,
-          "time": "2025-12-31 10:51:43.440"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 12087,
-          "important": false,
-          "monitor_id": 6,
-          "msg": "200 - OK",
-          "ping": 109,
-          "status": 1,
-          "time": "2025-12-31 10:52:43.559"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 12090,
-          "important": false,
-          "monitor_id": 6,
-          "msg": "200 - OK",
-          "ping": 98,
-          "status": 1,
-          "time": "2025-12-31 10:53:43.672"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 12093,
-          "important": false,
-          "monitor_id": 6,
-          "msg": "200 - OK",
-          "ping": 108,
-          "status": 1,
-          "time": "2025-12-31 10:54:43.804"
-        },
         {
           "down_count": 0,
           "duration": 60,
@@ -2219,6 +2164,61 @@
           "ping": 114,
           "status": 1,
           "time": "2025-12-31 12:29:57.076"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 12383,
+          "important": false,
+          "monitor_id": 6,
+          "msg": "200 - OK",
+          "ping": 127,
+          "status": 1,
+          "time": "2025-12-31 12:30:57.193"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 12386,
+          "important": false,
+          "monitor_id": 6,
+          "msg": "200 - OK",
+          "ping": 112,
+          "status": 1,
+          "time": "2025-12-31 12:31:57.324"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 12389,
+          "important": false,
+          "monitor_id": 6,
+          "msg": "200 - OK",
+          "ping": 100,
+          "status": 1,
+          "time": "2025-12-31 12:32:57.438"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 12392,
+          "important": false,
+          "monitor_id": 6,
+          "msg": "200 - OK",
+          "ping": 149,
+          "status": 1,
+          "time": "2025-12-31 12:33:57.541"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 12395,
+          "important": false,
+          "monitor_id": 6,
+          "msg": "200 - OK",
+          "ping": 107,
+          "status": 1,
+          "time": "2025-12-31 12:34:57.699"
         }
       ],
       "count": 100,
@@ -2231,61 +2231,6 @@
     },
     "7": {
       "beats": [
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 12082,
-          "important": false,
-          "monitor_id": 7,
-          "msg": "Request failed with status code 410",
-          "ping": null,
-          "status": 0,
-          "time": "2025-12-31 10:50:55.032"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 12085,
-          "important": false,
-          "monitor_id": 7,
-          "msg": "Request failed with status code 410",
-          "ping": null,
-          "status": 0,
-          "time": "2025-12-31 10:51:55.049"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 12088,
-          "important": false,
-          "monitor_id": 7,
-          "msg": "Request failed with status code 410",
-          "ping": null,
-          "status": 0,
-          "time": "2025-12-31 10:52:55.062"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 12091,
-          "important": false,
-          "monitor_id": 7,
-          "msg": "Request failed with status code 410",
-          "ping": null,
-          "status": 0,
-          "time": "2025-12-31 10:53:55.079"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 12094,
-          "important": false,
-          "monitor_id": 7,
-          "msg": "Request failed with status code 410",
-          "ping": null,
-          "status": 0,
-          "time": "2025-12-31 10:54:55.096"
-        },
         {
           "down_count": 0,
           "duration": 60,
@@ -3330,6 +3275,61 @@
           "ping": null,
           "status": 0,
           "time": "2025-12-31 12:29:56.650"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 12381,
+          "important": false,
+          "monitor_id": 7,
+          "msg": "Request failed with status code 410",
+          "ping": null,
+          "status": 0,
+          "time": "2025-12-31 12:30:56.666"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 12384,
+          "important": false,
+          "monitor_id": 7,
+          "msg": "Request failed with status code 410",
+          "ping": null,
+          "status": 0,
+          "time": "2025-12-31 12:31:56.701"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 12387,
+          "important": false,
+          "monitor_id": 7,
+          "msg": "Request failed with status code 410",
+          "ping": null,
+          "status": 0,
+          "time": "2025-12-31 12:32:56.715"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 12390,
+          "important": false,
+          "monitor_id": 7,
+          "msg": "Request failed with status code 410",
+          "ping": null,
+          "status": 0,
+          "time": "2025-12-31 12:33:56.734"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 12393,
+          "important": false,
+          "monitor_id": 7,
+          "msg": "Request failed with status code 410",
+          "ping": null,
+          "status": 0,
+          "time": "2025-12-31 12:34:56.755"
         }
       ],
       "count": 100,
@@ -3341,7 +3341,7 @@
       }
     }
   },
-  "generated_at_utc": "2025-12-31T12:30:03.821768+00:00",
+  "generated_at_utc": "2025-12-31T12:35:05.061147+00:00",
   "heartbeats_total": 300,
   "kuma_url": "http://uptime-kuma:3001",
   "monitors_count": 3
