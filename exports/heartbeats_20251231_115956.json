@@ -1,0 +1,54 @@
+{
+  "_poa": {
+    "prev_file": "heartbeats_20251231_114954.json",
+    "prev_sha256": "dc75267f079bf4816e8460dc13470b89ded883c50d6deed9ebb2aff172d83f79",
+    "proof_version": "poa-exports-v1",
+    "sequence": 199,
+    "ts": "2025-12-31T12:05:01Z"
+  },
+  "data": {
+    "5": {
+      "beats": [
+        {
+          "duration": 60,
+          "important": false,
+          "monitorID": 5,
+          "msg": "200 - OK",
+          "ping": 9,
+          "status": 1,
+          "time": "2025-12-31 11:59:56.205"
+        }
+      ],
+      "count": 1,
+      "monitor": {
+        "active": true,
+        "id": 5,
+        "name": "PoA API Health",
+        "type": "MonitorType.HTTP"
+      }
+    },
+    "7": {
+      "beats": [
+        {
+          "duration": 60,
+          "important": false,
+          "monitorID": 7,
+          "msg": "Request failed with status code 410",
+          "status": 0,
+          "time": "2025-12-31 11:59:56.163"
+        }
+      ],
+      "count": 1,
+      "monitor": {
+        "active": true,
+        "id": 7,
+        "name": "Verify/ Min",
+        "type": "MonitorType.HTTP"
+      }
+    }
+  },
+  "generated_at_utc": "2025-12-31T11:59:56.482203+00:00",
+  "heartbeats_total": 2,
+  "kuma_url": "http://uptime-kuma:3001",
+  "monitors_count": 3
+}
