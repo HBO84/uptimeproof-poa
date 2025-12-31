@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2025-12-31T03:49:14.278409+00:00",
+  "kuma_url": "http://uptime-kuma:3001",
+  "monitors_count": 2,
+  "heartbeats_total": 1,
+  "data": {
+    "6": {
+      "monitor": {
+        "id": 6,
+        "name": "Verify Truth",
+        "type": "MonitorType.HTTP",
+        "active": true
+      },
+      "count": 1,
+      "beats": [
+        {
+          "monitorID": 6,
+          "status": 0,
+          "time": "2025-12-31 03:49:13.761",
+          "msg": "Request failed with status code 503",
+          "important": false,
+          "duration": 60
+        }
+      ]
+    }
+  }
+}

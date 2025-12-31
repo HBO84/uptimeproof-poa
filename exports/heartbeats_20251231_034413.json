@@ -1,0 +1,34 @@
+{
+  "_poa": {
+    "prev_file": "heartbeats_20251231_033411.json",
+    "prev_sha256": "ba31b2bc44f7e39eb6a409686ff3cbf8bec7eca87b4178c167e32eea5a36523e",
+    "proof_version": "poa-exports-v1",
+    "sequence": 131,
+    "ts": "2025-12-31T03:50:02Z"
+  },
+  "data": {
+    "6": {
+      "beats": [
+        {
+          "duration": 60,
+          "important": false,
+          "monitorID": 6,
+          "msg": "Request failed with status code 503",
+          "status": 0,
+          "time": "2025-12-31 03:44:13.158"
+        }
+      ],
+      "count": 1,
+      "monitor": {
+        "active": true,
+        "id": 6,
+        "name": "Verify Truth",
+        "type": "MonitorType.HTTP"
+      }
+    }
+  },
+  "generated_at_utc": "2025-12-31T03:44:13.562353+00:00",
+  "heartbeats_total": 1,
+  "kuma_url": "http://uptime-kuma:3001",
+  "monitors_count": 2
+}
