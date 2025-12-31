@@ -1,0 +1,35 @@
+{
+  "_poa": {
+    "prev_file": "heartbeats_20251231_061349.json",
+    "prev_sha256": "6734fbb133ef7a9cc55d2c99707322597af25a0020b21f353ae7f8a2f2db3f51",
+    "proof_version": "poa-exports-v1",
+    "sequence": 159,
+    "ts": "2025-12-31T06:20:01Z"
+  },
+  "data": {
+    "5": {
+      "beats": [
+        {
+          "duration": 60,
+          "important": false,
+          "monitorID": 5,
+          "msg": "200 - OK",
+          "ping": 16,
+          "status": 1,
+          "time": "2025-12-31 06:18:49.881"
+        }
+      ],
+      "count": 1,
+      "monitor": {
+        "active": true,
+        "id": 5,
+        "name": "PoA API Health",
+        "type": "MonitorType.HTTP"
+      }
+    }
+  },
+  "generated_at_utc": "2025-12-31T06:18:50.323460+00:00",
+  "heartbeats_total": 1,
+  "kuma_url": "http://uptime-kuma:3001",
+  "monitors_count": 3
+}
