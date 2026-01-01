@@ -1,0 +1,35 @@
+{
+  "_poa": {
+    "prev_file": "heartbeats_20260101_022254.json",
+    "prev_sha256": "149123949da1a8f97e6c55f9b15a04989609d35d311cee4f76e8d5bccc70387b",
+    "proof_version": "poa-exports-v1",
+    "sequence": 370,
+    "ts": "2026-01-01T02:30:02Z"
+  },
+  "data": {
+    "6": {
+      "beats": [
+        {
+          "duration": 60,
+          "important": false,
+          "monitorID": 6,
+          "msg": "200 - OK",
+          "ping": 31,
+          "status": 1,
+          "time": "2026-01-01 02:27:55.106"
+        }
+      ],
+      "count": 1,
+      "monitor": {
+        "active": true,
+        "id": 6,
+        "name": "Verify Truth",
+        "type": "MonitorType.HTTP"
+      }
+    }
+  },
+  "generated_at_utc": "2026-01-01T02:27:55.363902+00:00",
+  "heartbeats_total": 1,
+  "kuma_url": "http://uptime-kuma:3001",
+  "monitors_count": 3
+}
