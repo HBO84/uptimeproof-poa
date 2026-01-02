@@ -1,0 +1,28 @@
+{
+  "generated_at_utc": "2026-01-02T10:24:25.947936+00:00",
+  "kuma_url": "http://uptime-kuma:3001",
+  "monitors_count": 2,
+  "heartbeats_total": 1,
+  "data": {
+    "6": {
+      "monitor": {
+        "id": 6,
+        "name": "Verify Truth",
+        "type": "MonitorType.JSON_QUERY",
+        "active": true
+      },
+      "count": 1,
+      "beats": [
+        {
+          "monitorID": 6,
+          "status": 1,
+          "time": "2026-01-02 10:24:25.525",
+          "msg": "200 - OK, expected value is found",
+          "ping": 25,
+          "important": false,
+          "duration": 60
+        }
+      ]
+    }
+  }
+}
