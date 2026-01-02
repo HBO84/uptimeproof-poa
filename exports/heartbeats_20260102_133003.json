@@ -1,69 +1,14 @@
 {
   "_poa": {
-    "prev_file": "heartbeats_20260102_132001.json",
-    "prev_sha256": "eff43938a6ca9d5ce015492ec59ce6ec0490d4044d9190f132bdffffc6639831",
+    "prev_file": "heartbeats_20260102_132502.json",
+    "prev_sha256": "a10c00d2657beb0ee00eb752eea38120c6473ee8472f51f0abc275f2817e50c8",
     "proof_version": "poa-exports-v1",
-    "sequence": 730,
-    "ts": "2026-01-02T13:30:01Z"
+    "sequence": 731,
+    "ts": "2026-01-02T13:35:01Z"
   },
   "data": {
     "5": {
       "beats": [
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 19632,
-          "important": false,
-          "monitor_id": 5,
-          "msg": "200 - OK",
-          "ping": 10,
-          "status": 1,
-          "time": "2026-01-02 11:45:25.861"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 19634,
-          "important": false,
-          "monitor_id": 5,
-          "msg": "200 - OK",
-          "ping": 11,
-          "status": 1,
-          "time": "2026-01-02 11:46:25.877"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 19636,
-          "important": false,
-          "monitor_id": 5,
-          "msg": "200 - OK",
-          "ping": 29,
-          "status": 1,
-          "time": "2026-01-02 11:47:25.892"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 19638,
-          "important": false,
-          "monitor_id": 5,
-          "msg": "200 - OK",
-          "ping": 13,
-          "status": 1,
-          "time": "2026-01-02 11:48:25.928"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 19640,
-          "important": false,
-          "monitor_id": 5,
-          "msg": "200 - OK",
-          "ping": 11,
-          "status": 1,
-          "time": "2026-01-02 11:49:25.944"
-        },
         {
           "down_count": 0,
           "duration": 60,
@@ -1108,6 +1053,61 @@
           "ping": 11,
           "status": 1,
           "time": "2026-01-02 13:24:27.626"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 19832,
+          "important": false,
+          "monitor_id": 5,
+          "msg": "200 - OK",
+          "ping": 11,
+          "status": 1,
+          "time": "2026-01-02 13:25:27.642"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 19834,
+          "important": false,
+          "monitor_id": 5,
+          "msg": "200 - OK",
+          "ping": 11,
+          "status": 1,
+          "time": "2026-01-02 13:26:27.659"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 19836,
+          "important": false,
+          "monitor_id": 5,
+          "msg": "200 - OK",
+          "ping": 10,
+          "status": 1,
+          "time": "2026-01-02 13:27:27.674"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 19838,
+          "important": false,
+          "monitor_id": 5,
+          "msg": "200 - OK",
+          "ping": 11,
+          "status": 1,
+          "time": "2026-01-02 13:28:27.689"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 19840,
+          "important": false,
+          "monitor_id": 5,
+          "msg": "200 - OK",
+          "ping": 11,
+          "status": 1,
+          "time": "2026-01-02 13:29:27.703"
         }
       ],
       "count": 100,
@@ -1120,61 +1120,6 @@
     },
     "6": {
       "beats": [
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 19633,
-          "important": false,
-          "monitor_id": 6,
-          "msg": "200 - OK, expected value is found",
-          "ping": 58,
-          "status": 1,
-          "time": "2026-01-02 11:45:28.996"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 19635,
-          "important": false,
-          "monitor_id": 6,
-          "msg": "200 - OK, expected value is found",
-          "ping": 35,
-          "status": 1,
-          "time": "2026-01-02 11:46:29.059"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 19637,
-          "important": false,
-          "monitor_id": 6,
-          "msg": "200 - OK, expected value is found",
-          "ping": 32,
-          "status": 1,
-          "time": "2026-01-02 11:47:29.100"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 19639,
-          "important": false,
-          "monitor_id": 6,
-          "msg": "200 - OK, expected value is found",
-          "ping": 34,
-          "status": 1,
-          "time": "2026-01-02 11:48:29.137"
-        },
-        {
-          "down_count": 0,
-          "duration": 60,
-          "id": 19641,
-          "important": false,
-          "monitor_id": 6,
-          "msg": "200 - OK, expected value is found",
-          "ping": 36,
-          "status": 1,
-          "time": "2026-01-02 11:49:29.176"
-        },
         {
           "down_count": 0,
           "duration": 60,
@@ -2219,6 +2164,61 @@
           "ping": 34,
           "status": 1,
           "time": "2026-01-02 13:24:33.505"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 19833,
+          "important": false,
+          "monitor_id": 6,
+          "msg": "200 - OK, expected value is found",
+          "ping": 40,
+          "status": 1,
+          "time": "2026-01-02 13:25:33.544"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 19835,
+          "important": false,
+          "monitor_id": 6,
+          "msg": "200 - OK, expected value is found",
+          "ping": 31,
+          "status": 1,
+          "time": "2026-01-02 13:26:33.591"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 19837,
+          "important": false,
+          "monitor_id": 6,
+          "msg": "200 - OK, expected value is found",
+          "ping": 34,
+          "status": 1,
+          "time": "2026-01-02 13:27:33.629"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 19839,
+          "important": false,
+          "monitor_id": 6,
+          "msg": "200 - OK, expected value is found",
+          "ping": 33,
+          "status": 1,
+          "time": "2026-01-02 13:28:33.669"
+        },
+        {
+          "down_count": 0,
+          "duration": 60,
+          "id": 19841,
+          "important": false,
+          "monitor_id": 6,
+          "msg": "200 - OK, expected value is found",
+          "ping": 36,
+          "status": 1,
+          "time": "2026-01-02 13:29:33.708"
         }
       ],
       "count": 100,
@@ -2230,7 +2230,7 @@
       }
     }
   },
-  "generated_at_utc": "2026-01-02T13:25:02.656056+00:00",
+  "generated_at_utc": "2026-01-02T13:30:03.977230+00:00",
   "heartbeats_total": 200,
   "kuma_url": "http://uptime-kuma:3001",
   "monitors_count": 2
