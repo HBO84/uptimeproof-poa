@@ -1,0 +1,15 @@
+{
+  "schema": "uptimeproof:poa-verify:v1",
+  "verdict": "OK",
+  "verification": {
+    "verdict": "VALID",
+    "checks": {
+      "head_latest_json": true,
+      "dns_matches_head": true,
+      "dns_lag_ok": true,
+      "dns_matched_file_hash": true,
+      "chain_ok": true,
+      "not_expired": true
+    }
+  }
+}
