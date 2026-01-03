@@ -1,10 +1,10 @@
 {
   "_poa": {
-    "prev_file": "heartbeats_20260103_130954.json",
-    "prev_sha256": "6b759f2a30d4b2d7ba6f08be1603f277d88291ac50708dacd6ba608815b414ba",
+    "prev_file": "heartbeats_20260103_132958.json",
+    "prev_sha256": "079ba55e48b915ac8e24949813bc8dca50a12677453884fc3007fe18d85477d0",
     "proof_version": "poa-exports-v1",
-    "sequence": 990,
-    "ts": "2026-01-03T13:25:02Z"
+    "sequence": 997,
+    "ts": "2026-01-03T13:55:01Z"
   },
   "data": {
     "5": {

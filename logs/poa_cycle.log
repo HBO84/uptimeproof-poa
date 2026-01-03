@@ -45,3 +45,208 @@ Updated via API: TXT _poa pushed.
 Authoritative TXT: TS=2026-01-03T13:25:02Z;SHA256=9e20d259c005cd543ba19efff84b6323c43893dc846aa48d449fa2445caa72f9;FILE=heartbeats_20260103_131956.json
 OK: authoritative TXT matches head.
 Git sync (best effort)...
+Verify (best effort)...
+VERDICT: OK
+DNS TXT     : TS=2026-01-03T13:25:02Z;SHA256=9e20d259c005cd543ba19efff84b6323c43893dc846aa48d449fa2445caa72f9;FILE=heartbeats_20260103_131956.json
+EXPORT_DIR  : /opt/uptimeproof/public-proof/exports
+Matched file: /opt/uptimeproof/public-proof/exports/heartbeats_20260103_131956.json (matched_by_filename)
+DNS SHA256  : 9e20d259c005cd543ba19efff84b6323c43893dc846aa48d449fa2445caa72f9
+File SHA256 : 9e20d259c005cd543ba19efff84b6323c43893dc846aa48d449fa2445caa72f9
+Skew seconds: 0 (file_mtime - dns_ts)
+LOCAL: OK
+=== POA CYCLE END 2026-01-03T13:35:08Z ===
+=== POA CYCLE START 2026-01-03T13:39:10Z ===
+Waiting for exporter to be idle...
+Chosen export: heartbeats_20260103_133459.json
+Chaining...
+OK
+Chained file : heartbeats_20260103_133459.json
+Sequence     : 991
+Prev file    : heartbeats_20260103_131956.json
+Prev sha256  : 9e20d259c005cd543ba19efff84b6323c43893dc846aa48d449fa2445caa72f9
+New sha256   : af73241006d1647a4d739a5cf810ffc113fa228db1429d6e4017f9f6d1f0d253
+Head updated : /opt/uptimeproof/public-proof/exports/latest.json
+Publishing DNS from head (latest.json)...
+Head: {'file': 'heartbeats_20260103_133459.json', 'sha256': 'af73241006d1647a4d739a5cf810ffc113fa228db1429d6e4017f9f6d1f0d253', 'ts': '2026-01-03T13:39:10Z'}
+TXT : TS=2026-01-03T13:39:10Z;SHA256=af73241006d1647a4d739a5cf810ffc113fa228db1429d6e4017f9f6d1f0d253;FILE=heartbeats_20260103_133459.json
+Updated via API: TXT _poa pushed.
+Authoritative TXT: TS=2026-01-03T13:39:10Z;SHA256=af73241006d1647a4d739a5cf810ffc113fa228db1429d6e4017f9f6d1f0d253;FILE=heartbeats_20260103_133459.json
+OK: authoritative TXT matches head.
+Git sync (best effort)...
+WARN: git sync lock busy, skipped.
+Verify (best effort)...
+VERDICT: OK
+DNS TXT     : TS=2026-01-03T13:25:02Z;SHA256=9e20d259c005cd543ba19efff84b6323c43893dc846aa48d449fa2445caa72f9;FILE=heartbeats_20260103_131956.json
+EXPORT_DIR  : /opt/uptimeproof/public-proof/exports
+Matched file: /opt/uptimeproof/public-proof/exports/heartbeats_20260103_131956.json (matched_by_filename)
+DNS SHA256  : 9e20d259c005cd543ba19efff84b6323c43893dc846aa48d449fa2445caa72f9
+File SHA256 : 9e20d259c005cd543ba19efff84b6323c43893dc846aa48d449fa2445caa72f9
+Skew seconds: 0 (file_mtime - dns_ts)
+LOCAL: OK
+=== POA CYCLE END 2026-01-03T13:39:14Z ===
+=== POA CYCLE START 2026-01-03T13:39:30Z ===
+Waiting for exporter to be idle...
+Chosen export: heartbeats_20260103_132958.json
+Chaining...
+OK
+Chained file : heartbeats_20260103_132958.json
+Sequence     : 992
+Prev file    : heartbeats_20260103_133459.json
+Prev sha256  : af73241006d1647a4d739a5cf810ffc113fa228db1429d6e4017f9f6d1f0d253
+New sha256   : 48121c05abf5ef0c47e9019f462b90e02d0c5b33d241538554ab724b4931bb64
+Head updated : /opt/uptimeproof/public-proof/exports/latest.json
+Publishing DNS from head (latest.json)...
+Head: {'file': 'heartbeats_20260103_132958.json', 'sha256': '48121c05abf5ef0c47e9019f462b90e02d0c5b33d241538554ab724b4931bb64', 'ts': '2026-01-03T13:39:30Z'}
+TXT : TS=2026-01-03T13:39:30Z;SHA256=48121c05abf5ef0c47e9019f462b90e02d0c5b33d241538554ab724b4931bb64;FILE=heartbeats_20260103_132958.json
+Updated via API: TXT _poa pushed.
+Authoritative TXT: TS=2026-01-03T13:39:30Z;SHA256=48121c05abf5ef0c47e9019f462b90e02d0c5b33d241538554ab724b4931bb64;FILE=heartbeats_20260103_132958.json
+OK: authoritative TXT matches head.
+Git sync (best effort)...
+WARN: git sync lock busy, skipped.
+Verify (best effort)...
+VERDICT: OK
+DNS TXT     : TS=2026-01-03T13:39:30Z;SHA256=48121c05abf5ef0c47e9019f462b90e02d0c5b33d241538554ab724b4931bb64;FILE=heartbeats_20260103_132958.json
+EXPORT_DIR  : /opt/uptimeproof/public-proof/exports
+Matched file: /opt/uptimeproof/public-proof/exports/heartbeats_20260103_132958.json (matched_by_filename)
+DNS SHA256  : 48121c05abf5ef0c47e9019f462b90e02d0c5b33d241538554ab724b4931bb64
+File SHA256 : 48121c05abf5ef0c47e9019f462b90e02d0c5b33d241538554ab724b4931bb64
+Skew seconds: 0 (file_mtime - dns_ts)
+LOCAL: OK
+=== POA CYCLE END 2026-01-03T13:39:36Z ===
+=== POA CYCLE START 2026-01-03T13:40:01Z ===
+Waiting for exporter to be idle...
+Chosen export: heartbeats_20260103_131956.json
+Chaining...
+OK
+Chained file : heartbeats_20260103_131956.json
+Sequence     : 993
+Prev file    : heartbeats_20260103_132958.json
+Prev sha256  : 48121c05abf5ef0c47e9019f462b90e02d0c5b33d241538554ab724b4931bb64
+New sha256   : 1b2c3870e292d41a8c8f248467e056c8bffa85ca8d72332d87cd8bd85b08a9ee
+Head updated : /opt/uptimeproof/public-proof/exports/latest.json
+Publishing DNS from head (latest.json)...
+Head: {'file': 'heartbeats_20260103_131956.json', 'sha256': '1b2c3870e292d41a8c8f248467e056c8bffa85ca8d72332d87cd8bd85b08a9ee', 'ts': '2026-01-03T13:40:01Z'}
+TXT : TS=2026-01-03T13:40:01Z;SHA256=1b2c3870e292d41a8c8f248467e056c8bffa85ca8d72332d87cd8bd85b08a9ee;FILE=heartbeats_20260103_131956.json
+Updated via API: TXT _poa pushed.
+Authoritative TXT: TS=2026-01-03T13:39:10Z;SHA256=af73241006d1647a4d739a5cf810ffc113fa228db1429d6e4017f9f6d1f0d253;FILE=heartbeats_20260103_133459.json
+FAIL: authoritative TXT does not match expected (publish did not apply).
+=== POA CYCLE START 2026-01-03T13:45:01Z ===
+Waiting for exporter to be idle...
+Chosen export is already head (heartbeats_20260103_131956.json) -> selecting next export...
+Chosen export: heartbeats_20260103_132958.json
+Chaining...
+OK
+Chained file : heartbeats_20260103_132958.json
+Sequence     : 994
+Prev file    : heartbeats_20260103_131956.json
+Prev sha256  : 1b2c3870e292d41a8c8f248467e056c8bffa85ca8d72332d87cd8bd85b08a9ee
+New sha256   : 4f6129a8ba495635857551f6c8d1c69934a5f57e6c25fa15448c7d91743085e9
+Head updated : /opt/uptimeproof/public-proof/exports/latest.json
+Publishing DNS from head (latest.json)...
+Head: {'file': 'heartbeats_20260103_132958.json', 'sha256': '4f6129a8ba495635857551f6c8d1c69934a5f57e6c25fa15448c7d91743085e9', 'ts': '2026-01-03T13:45:01Z'}
+TXT : TS=2026-01-03T13:45:01Z;SHA256=4f6129a8ba495635857551f6c8d1c69934a5f57e6c25fa15448c7d91743085e9;FILE=heartbeats_20260103_132958.json
+Updated via API: TXT _poa pushed.
+Authoritative TXT: TS=2026-01-03T13:45:01Z;SHA256=4f6129a8ba495635857551f6c8d1c69934a5f57e6c25fa15448c7d91743085e9;FILE=heartbeats_20260103_132958.json
+OK: authoritative TXT matches head.
+Git sync (best effort)...
+WARN: git sync lock busy, skipped.
+Verify (best effort)...
+VERDICT: OK
+DNS TXT     : TS=2026-01-03T13:45:01Z;SHA256=4f6129a8ba495635857551f6c8d1c69934a5f57e6c25fa15448c7d91743085e9;FILE=heartbeats_20260103_132958.json
+EXPORT_DIR  : /opt/uptimeproof/public-proof/exports
+Matched file: /opt/uptimeproof/public-proof/exports/heartbeats_20260103_132958.json (matched_by_filename)
+DNS SHA256  : 4f6129a8ba495635857551f6c8d1c69934a5f57e6c25fa15448c7d91743085e9
+File SHA256 : 4f6129a8ba495635857551f6c8d1c69934a5f57e6c25fa15448c7d91743085e9
+Skew seconds: 0 (file_mtime - dns_ts)
+LOCAL: OK
+=== POA CYCLE END 2026-01-03T13:45:06Z ===
+=== POA CYCLE START 2026-01-03T13:46:48Z ===
+Waiting for exporter to be idle...
+Chosen export is already current head (heartbeats_20260103_132958.json). Picking next newest file...
+Chosen export: heartbeats_20260103_131956.json
+Chaining...
+OK
+Chained file : heartbeats_20260103_131956.json
+Sequence     : 995
+Prev file    : heartbeats_20260103_132958.json
+Prev sha256  : 4f6129a8ba495635857551f6c8d1c69934a5f57e6c25fa15448c7d91743085e9
+New sha256   : bf1946a3019255023cec436bc86464e9b97ee8ef6aa22f3460eae268ecdcb243
+Head updated : /opt/uptimeproof/public-proof/exports/latest.json
+Publishing DNS from head (latest.json)...
+Head: {'file': 'heartbeats_20260103_131956.json', 'sha256': 'bf1946a3019255023cec436bc86464e9b97ee8ef6aa22f3460eae268ecdcb243', 'ts': '2026-01-03T13:46:48Z'}
+TXT : TS=2026-01-03T13:46:48Z;SHA256=bf1946a3019255023cec436bc86464e9b97ee8ef6aa22f3460eae268ecdcb243;FILE=heartbeats_20260103_131956.json
+Updated via API: TXT _poa pushed.
+Authoritative TXT: TS=2026-01-03T13:46:48Z;SHA256=bf1946a3019255023cec436bc86464e9b97ee8ef6aa22f3460eae268ecdcb243;FILE=heartbeats_20260103_131956.json
+OK: authoritative TXT matches head.
+Git sync (best effort)...
+WARN: git sync lock busy, skipped.
+Verify (best effort)...
+VERDICT: OK
+DNS TXT     : TS=2026-01-03T13:45:01Z;SHA256=4f6129a8ba495635857551f6c8d1c69934a5f57e6c25fa15448c7d91743085e9;FILE=heartbeats_20260103_132958.json
+EXPORT_DIR  : /opt/uptimeproof/public-proof/exports
+Matched file: /opt/uptimeproof/public-proof/exports/heartbeats_20260103_132958.json (matched_by_filename)
+DNS SHA256  : 4f6129a8ba495635857551f6c8d1c69934a5f57e6c25fa15448c7d91743085e9
+File SHA256 : 4f6129a8ba495635857551f6c8d1c69934a5f57e6c25fa15448c7d91743085e9
+Skew seconds: 0 (file_mtime - dns_ts)
+LOCAL: OK
+=== POA CYCLE END 2026-01-03T13:46:52Z ===
+=== POA CYCLE START 2026-01-03T13:50:01Z ===
+Waiting for exporter to be idle...
+Chosen export is already current head (heartbeats_20260103_131956.json). Picking next newest file...
+Chosen export: heartbeats_20260103_132958.json
+Chaining...
+OK
+Chained file : heartbeats_20260103_132958.json
+Sequence     : 996
+Prev file    : heartbeats_20260103_131956.json
+Prev sha256  : bf1946a3019255023cec436bc86464e9b97ee8ef6aa22f3460eae268ecdcb243
+New sha256   : 079ba55e48b915ac8e24949813bc8dca50a12677453884fc3007fe18d85477d0
+Head updated : /opt/uptimeproof/public-proof/exports/latest.json
+Publishing DNS from head (latest.json)...
+Head: {'file': 'heartbeats_20260103_132958.json', 'sha256': '079ba55e48b915ac8e24949813bc8dca50a12677453884fc3007fe18d85477d0', 'ts': '2026-01-03T13:50:02Z'}
+TXT : TS=2026-01-03T13:50:02Z;SHA256=079ba55e48b915ac8e24949813bc8dca50a12677453884fc3007fe18d85477d0;FILE=heartbeats_20260103_132958.json
+Updated via API: TXT _poa pushed.
+Authoritative TXT: TS=2026-01-03T13:50:02Z;SHA256=079ba55e48b915ac8e24949813bc8dca50a12677453884fc3007fe18d85477d0;FILE=heartbeats_20260103_132958.json
+OK: authoritative TXT matches head.
+Git sync (best effort)...
+WARN: git sync lock busy, skipped.
+Verify (best effort)...
+VERDICT: OK
+DNS TXT     : TS=2026-01-03T13:50:02Z;SHA256=079ba55e48b915ac8e24949813bc8dca50a12677453884fc3007fe18d85477d0;FILE=heartbeats_20260103_132958.json
+EXPORT_DIR  : /opt/uptimeproof/public-proof/exports
+Matched file: /opt/uptimeproof/public-proof/exports/heartbeats_20260103_132958.json (matched_by_filename)
+DNS SHA256  : 079ba55e48b915ac8e24949813bc8dca50a12677453884fc3007fe18d85477d0
+File SHA256 : 079ba55e48b915ac8e24949813bc8dca50a12677453884fc3007fe18d85477d0
+Skew seconds: 0 (file_mtime - dns_ts)
+LOCAL: OK
+=== POA CYCLE END 2026-01-03T13:50:07Z ===
+=== POA CYCLE START 2026-01-03T13:55:01Z ===
+Waiting for exporter to be idle...
+Chosen export is already current head (heartbeats_20260103_132958.json). Picking next newest file...
+Chosen export: heartbeats_20260103_131956.json
+Chaining...
+OK
+Chained file : heartbeats_20260103_131956.json
+Sequence     : 997
+Prev file    : heartbeats_20260103_132958.json
+Prev sha256  : 079ba55e48b915ac8e24949813bc8dca50a12677453884fc3007fe18d85477d0
+New sha256   : 104d202c8c5e74db46641926a76992c9cb3dcd735da71b91328c1f01f9b0f062
+Head updated : /opt/uptimeproof/public-proof/exports/latest.json
+Publishing DNS from head (latest.json)...
+Head: {'file': 'heartbeats_20260103_131956.json', 'sha256': '104d202c8c5e74db46641926a76992c9cb3dcd735da71b91328c1f01f9b0f062', 'ts': '2026-01-03T13:55:01Z'}
+TXT : TS=2026-01-03T13:55:01Z;SHA256=104d202c8c5e74db46641926a76992c9cb3dcd735da71b91328c1f01f9b0f062;FILE=heartbeats_20260103_131956.json
+Updated via API: TXT _poa pushed.
+Authoritative TXT: TS=2026-01-03T13:55:01Z;SHA256=104d202c8c5e74db46641926a76992c9cb3dcd735da71b91328c1f01f9b0f062;FILE=heartbeats_20260103_131956.json
+OK: authoritative TXT matches head.
+Git sync (best effort)...
+WARN: git sync lock busy, skipped.
+Verify (best effort)...
+VERDICT: OK
+DNS TXT     : TS=2026-01-03T13:55:01Z;SHA256=104d202c8c5e74db46641926a76992c9cb3dcd735da71b91328c1f01f9b0f062;FILE=heartbeats_20260103_131956.json
+EXPORT_DIR  : /opt/uptimeproof/public-proof/exports
+Matched file: /opt/uptimeproof/public-proof/exports/heartbeats_20260103_131956.json (matched_by_filename)
+DNS SHA256  : 104d202c8c5e74db46641926a76992c9cb3dcd735da71b91328c1f01f9b0f062
+File SHA256 : 104d202c8c5e74db46641926a76992c9cb3dcd735da71b91328c1f01f9b0f062
+Skew seconds: 0 (file_mtime - dns_ts)
+LOCAL: OK
+=== POA CYCLE END 2026-01-03T13:55:06Z ===

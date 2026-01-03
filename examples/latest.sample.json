@@ -1,0 +1,8 @@
+{
+  "file": "heartbeats_YYYYMMDD_HHMMSS.json",
+  "ts": "2026-01-01T00:00:00Z",
+  "sha256": "REPLACE_WITH_64_HEX",
+  "sequence": 1,
+  "prev_file": null,
+  "prev_sha256": null
+}
