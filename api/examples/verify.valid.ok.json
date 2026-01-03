@@ -1,8 +1,27 @@
 {
   "schema": "uptimeproof:poa-verify:v1",
+  "ts": "2026-01-02T00:00:00Z",
+  "now_utc": "2026-01-02T00:00:00Z",
   "verdict": "OK",
+  "message": "OK: head matches DNS anchor and chain is valid.",
+  "service": {
+    "name": "UptimeProof",
+    "project": "Proof of Availability (PoA)",
+    "domain": "uptimeproof.io",
+    "environment": "prod",
+    "contact": "contact@uptimeproof.io",
+    "branding": {
+      "display_name": "UptimeProof PoA"
+    }
+  },
+  "links": {
+    "status_ui": "https://uptimeproof.io/status/",
+    "verify_json": "https://uptimeproof.io/poa/v1/verify",
+    "about": "https://uptimeproof.io/status/about.html"
+  },
   "verification": {
     "verdict": "VALID",
+    "reason": "OK: head matches DNS anchor and chain is valid.",
     "checks": {
       "head_latest_json": true,
       "dns_matches_head": true,
@@ -10,6 +29,22 @@
       "dns_matched_file_hash": true,
       "chain_ok": true,
       "not_expired": true
+    }
+  },
+  "proof": {
+    "ts": "2026-01-02T00:00:00Z",
+    "head": {
+      "file": "heartbeats_20260102_000000.json",
+      "sha256": "1111111111111111111111111111111111111111111111111111111111111111"
+    },
+    "matched_file_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+    "proof_window_seconds": 300,
+    "valid_until_utc": "2026-01-02T00:05:00Z"
+  },
+  "anchor": {
+    "dns": {
+      "file": "heartbeats_20260102_000000.json",
+      "sha256": "1111111111111111111111111111111111111111111111111111111111111111"
     }
   }
 }
