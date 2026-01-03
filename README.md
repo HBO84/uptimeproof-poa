@@ -1,3 +1,4 @@
+[![PoA API Contract](https://github.com/HBO84/uptimeproof-poa/actions/workflows/poa-contract.yml/badge.svg)](https://github.com/HBO84/uptimeproof-poa/actions/workflows/poa-contract.yml)
 # uptimeproof-poa — Public Proof of Availability (PoA)
 
 This repository is the **public proof log** for **uptimeproof.io**.
