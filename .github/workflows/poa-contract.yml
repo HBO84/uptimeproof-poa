@@ -61,3 +61,38 @@ jobs:
           validate(instance=data, schema=schema)
           print("OK: schema valid")
           PY
+  validate_examples:
+    runs-on: ubuntu-latest
+    needs: verify
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install jsonschema
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install jsonschema
+
+      - name: Validate api/examples/*.json against schema
+        run: |
+          python3 - <<'PY'
+          import json, glob, sys
+          from jsonschema import validate
+
+          schema_path = "api/uptimeproof-poa-verify-v1.schema.json"
+          schema = json.load(open(schema_path, "r", encoding="utf-8"))
+
+          files = sorted(glob.glob("api/examples/*.json"))
+          if not files:
+            print("No example files found.")
+            sys.exit(0)
+
+          ok = 0
+          for f in files:
+            data = json.load(open(f, "r", encoding="utf-8"))
+            validate(instance=data, schema=schema)
+            print("OK:", f)
+            ok += 1
+
+          print(f"Validated {ok} example files.")
+          PY
