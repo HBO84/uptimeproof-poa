@@ -4,7 +4,7 @@ on:
   push:
   pull_request:
   schedule:
-    - cron: "*/15 * * * *"   # toutes les 15 minutes (ajuste si tu veux)
+    - cron: "*/15 * * * *"
 
 jobs:
   verify:
@@ -13,20 +13,46 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install jq
+      - name: Install jq + curl
         run: sudo apt-get update && sudo apt-get install -y jq curl
 
-      - name: Run verify_client.sh (recommended logic)
+      - name: Debug connectivity (non-fatal)
         run: |
-          chmod +x api/verify_client.sh
-          api/verify_client.sh "https://uptimeproof.io/poa/v1/verify"
+          set +e
+          curl -Ivs --connect-timeout 10 --max-time 20 https://uptimeproof.io/poa/v1/verify 2>&1 | tail -n 60
+          exit 0
 
-      # Optionnel: validation JSON Schema (si tu veux)
+      - name: Run verify_client.sh (with retries)
+        run: |
+          set -e
+          chmod +x api/verify_client.sh
+          URL="https://uptimeproof.io/poa/v1/verify"
+
+          # 5 tentatives pour absorber les micro-coupures réseau / TLS slow / etc.
+          for i in 1 2 3 4 5; do
+            echo "Attempt $i/5"
+            if api/verify_client.sh "$URL"; then
+              echo "UP ✅"
+              exit 0
+            fi
+            echo "Not UP yet (or network hiccup). Sleeping 10s..."
+            sleep 10
+          done
+
+          echo "DOWN ❌ after retries"
+          exit 1
+
       - name: Schema validation (optional)
         run: |
+          set -e
           python3 -m pip install --upgrade pip
           python3 -m pip install jsonschema
-          curl -fsS "https://uptimeproof.io/poa/v1/verify" -o /tmp/verify.json
+
+          # robust curl (timeouts + retries)
+          curl -fsS --connect-timeout 10 --max-time 25 \
+            --retry 5 --retry-delay 5 --retry-all-errors \
+            "https://uptimeproof.io/poa/v1/verify" -o /tmp/verify.json
+
           python3 - <<'PY'
           import json
           from jsonschema import validate
