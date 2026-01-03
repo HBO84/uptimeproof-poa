@@ -1,0 +1,19 @@
+=== POA CYCLE START 2026-01-03T13:30:01Z ===
+Waiting for exporter to be idle...
+Chosen export is already head (heartbeats_20260103_131956.json) -> selecting next export...
+Chosen export: heartbeats_20260103_132457.json
+Chaining...
+OK
+Chained file : heartbeats_20260103_132457.json
+Sequence     : 991
+Prev file    : heartbeats_20260103_131956.json
+Prev sha256  : 9e20d259c005cd543ba19efff84b6323c43893dc846aa48d449fa2445caa72f9
+New sha256   : 22c203d36b7100a7a542ccb00f7f7a1b3bf9e0a9636fdc8bbb8f665870bed825
+Head updated : /opt/uptimeproof/public-proof/exports/latest.json
+Publishing DNS from head (latest.json)...
+Head: {'file': 'heartbeats_20260103_131956.json', 'sha256': '9e20d259c005cd543ba19efff84b6323c43893dc846aa48d449fa2445caa72f9', 'ts': '2026-01-03T13:25:02Z'}
+TXT : TS=2026-01-03T13:25:02Z;SHA256=9e20d259c005cd543ba19efff84b6323c43893dc846aa48d449fa2445caa72f9;FILE=heartbeats_20260103_131956.json
+Updated via API: TXT _poa pushed.
+Authoritative TXT: TS=2026-01-03T13:25:02Z;SHA256=9e20d259c005cd543ba19efff84b6323c43893dc846aa48d449fa2445caa72f9;FILE=heartbeats_20260103_131956.json
+OK: authoritative TXT matches head.
+Git sync (best effort)...
