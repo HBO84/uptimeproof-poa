@@ -1,8 +1,27 @@
 {
   "schema": "uptimeproof:poa-verify:v1",
+  "ts": "2026-01-02T00:10:00Z",
+  "now_utc": "2026-01-02T00:10:00Z",
   "verdict": "OK",
+  "message": "OK: chain valid; DNS anchor lags by 1 step (propagation/cron delay).",
+  "service": {
+    "name": "UptimeProof",
+    "project": "Proof of Availability (PoA)",
+    "domain": "uptimeproof.io",
+    "environment": "prod",
+    "contact": "contact@uptimeproof.io",
+    "branding": {
+      "display_name": "UptimeProof PoA"
+    }
+  },
+  "links": {
+    "status_ui": "https://uptimeproof.io/status/",
+    "verify_json": "https://uptimeproof.io/poa/v1/verify",
+    "about": "https://uptimeproof.io/status/about.html"
+  },
   "verification": {
     "verdict": "VALID",
+    "reason": "OK: chain valid; DNS anchor lags by 1 step (propagation/cron delay).",
     "checks": {
       "head_latest_json": true,
       "dns_matches_head": false,
@@ -12,5 +31,20 @@
       "not_expired": true
     }
   },
-  "message": "OK: chain valid; DNS anchor lags by 1 step (propagation/cron delay)."
+  "proof": {
+    "ts": "2026-01-02T00:10:00Z",
+    "head": {
+      "file": "heartbeats_20260102_000500.json",
+      "sha256": "2222222222222222222222222222222222222222222222222222222222222222"
+    },
+    "matched_file_sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+    "proof_window_seconds": 300,
+    "valid_until_utc": "2026-01-02T00:15:00Z"
+  },
+  "anchor": {
+    "dns": {
+      "file": "heartbeats_20260102_000000.json",
+      "sha256": "1111111111111111111111111111111111111111111111111111111111111111"
+    }
+  }
 }
