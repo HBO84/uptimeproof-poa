@@ -1,0 +1,15 @@
+{
+  "integrity_hash": "4c8e65ab90a39bd7c501d1ed4395a0dc428c359a6e56271ce83676bec8a7737f",
+  "master_location": "Paris-VPS",
+  "proof_id": "211b962d-9946-4296-8048-67de6e49d526",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "31e309324d962e7c",
+    "proof_hash": "22233e81dc81e8df57de9f53fed7a6dcd11f7e07860864db9bd8158fb5fced38",
+    "public_key": "9PAep13Hnc+pG6HWIBWUOnAiwhc4hbn2ZGAM6BxhwEk=",
+    "signature": "Vg58enBEKAHGiX4+XT1XgaOKM6AnnSMcEfjIy5SkAomOmfHMK5Vb9nWg21+N2LwkKWYReMF75y4p20NKfMiUDQ==",
+    "status": "signed"
+  },
+  "timestamp": "2026-01-07T19:06:42.806307Z",
+  "version": "1.0.0"
+}
