@@ -1,0 +1,60 @@
+{
+  "_poa": {
+    "prev_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "sequence": 1,
+    "ts": "2026-01-11T12:00:00Z"
+  },
+  "check": {
+    "check_metadata": {
+      "monitors": [
+        {
+          "active": true,
+          "client_id": "Alpha",
+          "id": 7,
+          "name": "Google-Check",
+          "tags": [
+            {
+              "name": "Client",
+              "value": "Alpha"
+            }
+          ],
+          "type": "MonitorType.HTTP",
+          "url": "https://www.google.com/"
+        }
+      ]
+    },
+    "response_time_ms": 45.2,
+    "status_code": 200,
+    "success": true,
+    "target": "https://www.google.com/",
+    "type": "https"
+  },
+  "custom": {
+    "export": {
+      "source": {
+        "kuma_url": "http://uptime-kuma:3001",
+        "type": "UptimeProof-Core"
+      }
+    }
+  },
+  "metadata": {
+    "client_id": "Alpha",
+    "location": "Paris-VPS-01",
+    "master_id": "server-1"
+  },
+  "nonce": "a1b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef123456",
+  "proof_hash": "3e779cba97553c1092c34096b12f46483dd395a9e24d46bad9ae3c0287b24ea8",
+  "proof_id": "10767eeb-cbbd-43b8-b9c8-2e1733288a8b",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "31e309324d962e7c",
+    "proof_hash": "3e779cba97553c1092c34096b12f46483dd395a9e24d46bad9ae3c0287b24ea8",
+    "public_key": "9PAep13Hnc+pG6HWIBWUOnAiwhc4hbn2ZGAM6BxhwEk=",
+    "signature": "8XnjMunM5ThzMSNXkmOAoASSKhA/Ec9wB6dWHk5Ypp8CdW3+Ac4+4yArxqTFBCvhcqBAZSHDZmOL2yBQBW3lAg==",
+    "status": "signed"
+  },
+  "source": "uptime-kuma",
+  "statuspage_slug": "public",
+  "timestamp": "2026-01-11T12:00:00.000000Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,44 @@
+{
+  "_poa": {
+    "prev_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "data": {
+    "heartbeatList": {},
+    "uptimeList": {}
+  },
+  "kuma_url": "a5d22ad20f7313043de93f4b0ad99af964a5009ab2c1b1446805cece4214ca93",
+  "metadata": {
+    "client_id": "af67649866da02ac44d6f4ffbbb04453f6b5869d497e6270b84522e79f6bab70",
+    "location": "Paris-VPS-01"
+  },
+  "monitors": [
+    {
+      "active": true,
+      "client_id": "0ac71db1297cedc55670b2e7fdf6fb5a451b14f663d95cb47e8cfa755ba7628f",
+      "id": 7,
+      "name": "158cebfb2b05af95063afcdd2ed313e7912302531f7e94eae081477b26f4a03c",
+      "tags": [
+        {
+          "name": "Client",
+          "value": "0ac71db1297cedc55670b2e7fdf6fb5a451b14f663d95cb47e8cfa755ba7628f"
+        }
+      ],
+      "type": "MonitorType.HTTP",
+      "url": "7ea67688c27161dee1deebd09bee8094d7be7d964f5d959c7f30360265febc12"
+    }
+  ],
+  "nonce": "a1b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef123456",
+  "proof_hash": "3e779cba97553c1092c34096b12f46483dd395a9e24d46bad9ae3c0287b24ea8",
+  "proof_id": "10767eeb-cbbd-43b8-b9c8-2e1733288a8b",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "31e309324d962e7c",
+    "proof_hash": "3e779cba97553c1092c34096b12f46483dd395a9e24d46bad9ae3c0287b24ea8",
+    "public_key": "9PAep13Hnc+pG6HWIBWUOnAiwhc4hbn2ZGAM6BxhwEk=",
+    "signature": "8XnjMunM5ThzMSNXkmOAoASSKhA/Ec9wB6dWHk5Ypp8CdW3+Ac4+4yArxqTFBCvhcqBAZSHDZmOL2yBQBW3lAg==",
+    "status": "signed"
+  },
+  "source": "uptime-kuma",
+  "statuspage_slug": "public",
+  "timestamp": "2026-01-11T12:00:00.000000Z"
+}
